@@ -7,17 +7,29 @@
     <style>
         @import url(../style.css);
     </style>
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
 </head>
 <body>
     <h2>Go analysis flowchart.</h2>
     <div style="display:inline-block;height:100%;vertical-align: margin" >
-        <form action="path" >
+        <form action="path" onsubmit="return default_path()">
             <h4>Package path:</h4>
-            <input name="path" type="text" style="width:400px;height:30px" placeholder="github.com/zack4coding/go-flowchart">
+            <input name="path" id="path" type="text" style="width:400px;height:30px" 
+                placeholder="github.com/zack4coding/go-flowchart">
             <input type="submit" value="analyze" style="width:160px;height:36px">
         </form>
     </div>
-
+    <script>
+      function default_path(){
+        if($('#path').val()==''){
+            $('#path').val("github.com/zack4coding/go-flowchart")
+        }
+        return true;
+      }
+    </script>
 </body>
 <footer>
     <div >
