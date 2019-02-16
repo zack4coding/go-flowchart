@@ -20,10 +20,10 @@ package hierarchical
 
 import (
 	"log"
-	"go-flowchart/dir"
 	"go/ast"
 	"go/parser"
 	"go/token"
+	"github.com/zack4coding/go-flowchart/dir"
 )
 
 // In order to find import links.

@@ -4,7 +4,7 @@ import (
 	"os"
 	"log"
 	"strings"
-	"go-flowchart/dir"
+	"github.com/zack4coding/go-flowchart/dir"
 )
 
 var gopath = os.Getenv("GOPATH")

@@ -5,8 +5,8 @@ import (
     "fmt"
     "net/http"
     "html/template"
-    "go-flowchart/analysis"
-    "go-flowchart/analysis/hierarchical"
+    "github.com/zack4coding/go-flowchart/analysis"
+    "github.com/zack4coding/go-flowchart/analysis/hierarchical"
 )
 
 var t = template.Must(template.ParseGlob("assets/*"))
