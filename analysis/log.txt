@@ -1,0 +1,358 @@
+
+     0  map[string]*ast.Package (len = 1) {
+     1  .  "main": *ast.Package {
+     2  .  .  Name: "main"
+     3  .  .  Files: map[string]*ast.File (len = 1) {
+     4  .  .  .  "D:\\gopath\\src\\github.com\\gopherjs\\gopherjs\\tool.go": *ast.File {
+     5  .  .  .  .  Package: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:1:1
+     6  .  .  .  .  Name: *ast.Ident {
+     7  .  .  .  .  .  NamePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:1:9
+     8  .  .  .  .  .  Name: "main"
+     9  .  .  .  .  }
+    10  .  .  .  .  Decls: []ast.Decl (len = 1) {
+    11  .  .  .  .  .  0: *ast.GenDecl {
+    12  .  .  .  .  .  .  TokPos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:3:1
+    13  .  .  .  .  .  .  Tok: import
+    14  .  .  .  .  .  .  Lparen: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:3:8
+    15  .  .  .  .  .  .  Specs: []ast.Spec (len = 36) {
+    16  .  .  .  .  .  .  .  0: *ast.ImportSpec {
+    17  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    18  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:4:2
+    19  .  .  .  .  .  .  .  .  .  Kind: STRING
+    20  .  .  .  .  .  .  .  .  .  Value: "\"bytes\""
+    21  .  .  .  .  .  .  .  .  }
+    22  .  .  .  .  .  .  .  .  EndPos: -
+    23  .  .  .  .  .  .  .  }
+    24  .  .  .  .  .  .  .  1: *ast.ImportSpec {
+    25  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    26  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:5:2
+    27  .  .  .  .  .  .  .  .  .  Kind: STRING
+    28  .  .  .  .  .  .  .  .  .  Value: "\"errors\""
+    29  .  .  .  .  .  .  .  .  }
+    30  .  .  .  .  .  .  .  .  EndPos: -
+    31  .  .  .  .  .  .  .  }
+    32  .  .  .  .  .  .  .  2: *ast.ImportSpec {
+    33  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    34  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:6:2
+    35  .  .  .  .  .  .  .  .  .  Kind: STRING
+    36  .  .  .  .  .  .  .  .  .  Value: "\"fmt\""
+    37  .  .  .  .  .  .  .  .  }
+    38  .  .  .  .  .  .  .  .  EndPos: -
+    39  .  .  .  .  .  .  .  }
+    40  .  .  .  .  .  .  .  3: *ast.ImportSpec {
+    41  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    42  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:7:2
+    43  .  .  .  .  .  .  .  .  .  Kind: STRING
+    44  .  .  .  .  .  .  .  .  .  Value: "\"go/ast\""
+    45  .  .  .  .  .  .  .  .  }
+    46  .  .  .  .  .  .  .  .  EndPos: -
+    47  .  .  .  .  .  .  .  }
+    48  .  .  .  .  .  .  .  4: *ast.ImportSpec {
+    49  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    50  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:8:2
+    51  .  .  .  .  .  .  .  .  .  Kind: STRING
+    52  .  .  .  .  .  .  .  .  .  Value: "\"go/build\""
+    53  .  .  .  .  .  .  .  .  }
+    54  .  .  .  .  .  .  .  .  EndPos: -
+    55  .  .  .  .  .  .  .  }
+    56  .  .  .  .  .  .  .  5: *ast.ImportSpec {
+    57  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    58  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:9:2
+    59  .  .  .  .  .  .  .  .  .  Kind: STRING
+    60  .  .  .  .  .  .  .  .  .  Value: "\"go/doc\""
+    61  .  .  .  .  .  .  .  .  }
+    62  .  .  .  .  .  .  .  .  EndPos: -
+    63  .  .  .  .  .  .  .  }
+    64  .  .  .  .  .  .  .  6: *ast.ImportSpec {
+    65  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    66  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:10:2
+    67  .  .  .  .  .  .  .  .  .  Kind: STRING
+    68  .  .  .  .  .  .  .  .  .  Value: "\"go/parser\""
+    69  .  .  .  .  .  .  .  .  }
+    70  .  .  .  .  .  .  .  .  EndPos: -
+    71  .  .  .  .  .  .  .  }
+    72  .  .  .  .  .  .  .  7: *ast.ImportSpec {
+    73  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    74  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:11:2
+    75  .  .  .  .  .  .  .  .  .  Kind: STRING
+    76  .  .  .  .  .  .  .  .  .  Value: "\"go/scanner\""
+    77  .  .  .  .  .  .  .  .  }
+    78  .  .  .  .  .  .  .  .  EndPos: -
+    79  .  .  .  .  .  .  .  }
+    80  .  .  .  .  .  .  .  8: *ast.ImportSpec {
+    81  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    82  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:12:2
+    83  .  .  .  .  .  .  .  .  .  Kind: STRING
+    84  .  .  .  .  .  .  .  .  .  Value: "\"go/token\""
+    85  .  .  .  .  .  .  .  .  }
+    86  .  .  .  .  .  .  .  .  EndPos: -
+    87  .  .  .  .  .  .  .  }
+    88  .  .  .  .  .  .  .  9: *ast.ImportSpec {
+    89  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    90  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:13:2
+    91  .  .  .  .  .  .  .  .  .  Kind: STRING
+    92  .  .  .  .  .  .  .  .  .  Value: "\"go/types\""
+    93  .  .  .  .  .  .  .  .  }
+    94  .  .  .  .  .  .  .  .  EndPos: -
+    95  .  .  .  .  .  .  .  }
+    96  .  .  .  .  .  .  .  10: *ast.ImportSpec {
+    97  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+    98  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:14:2
+    99  .  .  .  .  .  .  .  .  .  Kind: STRING
+   100  .  .  .  .  .  .  .  .  .  Value: "\"io\""
+   101  .  .  .  .  .  .  .  .  }
+   102  .  .  .  .  .  .  .  .  EndPos: -
+   103  .  .  .  .  .  .  .  }
+   104  .  .  .  .  .  .  .  11: *ast.ImportSpec {
+   105  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   106  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:15:2
+   107  .  .  .  .  .  .  .  .  .  Kind: STRING
+   108  .  .  .  .  .  .  .  .  .  Value: "\"io/ioutil\""
+   109  .  .  .  .  .  .  .  .  }
+   110  .  .  .  .  .  .  .  .  EndPos: -
+   111  .  .  .  .  .  .  .  }
+   112  .  .  .  .  .  .  .  12: *ast.ImportSpec {
+   113  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   114  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:16:2
+   115  .  .  .  .  .  .  .  .  .  Kind: STRING
+   116  .  .  .  .  .  .  .  .  .  Value: "\"net\""
+   117  .  .  .  .  .  .  .  .  }
+   118  .  .  .  .  .  .  .  .  EndPos: -
+   119  .  .  .  .  .  .  .  }
+   120  .  .  .  .  .  .  .  13: *ast.ImportSpec {
+   121  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   122  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:17:2
+   123  .  .  .  .  .  .  .  .  .  Kind: STRING
+   124  .  .  .  .  .  .  .  .  .  Value: "\"net/http\""
+   125  .  .  .  .  .  .  .  .  }
+   126  .  .  .  .  .  .  .  .  EndPos: -
+   127  .  .  .  .  .  .  .  }
+   128  .  .  .  .  .  .  .  14: *ast.ImportSpec {
+   129  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   130  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:18:2
+   131  .  .  .  .  .  .  .  .  .  Kind: STRING
+   132  .  .  .  .  .  .  .  .  .  Value: "\"os\""
+   133  .  .  .  .  .  .  .  .  }
+   134  .  .  .  .  .  .  .  .  EndPos: -
+   135  .  .  .  .  .  .  .  }
+   136  .  .  .  .  .  .  .  15: *ast.ImportSpec {
+   137  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   138  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:19:2
+   139  .  .  .  .  .  .  .  .  .  Kind: STRING
+   140  .  .  .  .  .  .  .  .  .  Value: "\"os/exec\""
+   141  .  .  .  .  .  .  .  .  }
+   142  .  .  .  .  .  .  .  .  EndPos: -
+   143  .  .  .  .  .  .  .  }
+   144  .  .  .  .  .  .  .  16: *ast.ImportSpec {
+   145  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   146  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:20:2
+   147  .  .  .  .  .  .  .  .  .  Kind: STRING
+   148  .  .  .  .  .  .  .  .  .  Value: "\"path\""
+   149  .  .  .  .  .  .  .  .  }
+   150  .  .  .  .  .  .  .  .  EndPos: -
+   151  .  .  .  .  .  .  .  }
+   152  .  .  .  .  .  .  .  17: *ast.ImportSpec {
+   153  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   154  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:21:2
+   155  .  .  .  .  .  .  .  .  .  Kind: STRING
+   156  .  .  .  .  .  .  .  .  .  Value: "\"path/filepath\""
+   157  .  .  .  .  .  .  .  .  }
+   158  .  .  .  .  .  .  .  .  EndPos: -
+   159  .  .  .  .  .  .  .  }
+   160  .  .  .  .  .  .  .  18: *ast.ImportSpec {
+   161  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   162  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:22:2
+   163  .  .  .  .  .  .  .  .  .  Kind: STRING
+   164  .  .  .  .  .  .  .  .  .  Value: "\"runtime\""
+   165  .  .  .  .  .  .  .  .  }
+   166  .  .  .  .  .  .  .  .  EndPos: -
+   167  .  .  .  .  .  .  .  }
+   168  .  .  .  .  .  .  .  19: *ast.ImportSpec {
+   169  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   170  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:23:2
+   171  .  .  .  .  .  .  .  .  .  Kind: STRING
+   172  .  .  .  .  .  .  .  .  .  Value: "\"sort\""
+   173  .  .  .  .  .  .  .  .  }
+   174  .  .  .  .  .  .  .  .  EndPos: -
+   175  .  .  .  .  .  .  .  }
+   176  .  .  .  .  .  .  .  20: *ast.ImportSpec {
+   177  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   178  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:24:2
+   179  .  .  .  .  .  .  .  .  .  Kind: STRING
+   180  .  .  .  .  .  .  .  .  .  Value: "\"strconv\""
+   181  .  .  .  .  .  .  .  .  }
+   182  .  .  .  .  .  .  .  .  EndPos: -
+   183  .  .  .  .  .  .  .  }
+   184  .  .  .  .  .  .  .  21: *ast.ImportSpec {
+   185  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   186  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:25:2
+   187  .  .  .  .  .  .  .  .  .  Kind: STRING
+   188  .  .  .  .  .  .  .  .  .  Value: "\"strings\""
+   189  .  .  .  .  .  .  .  .  }
+   190  .  .  .  .  .  .  .  .  EndPos: -
+   191  .  .  .  .  .  .  .  }
+   192  .  .  .  .  .  .  .  22: *ast.ImportSpec {
+   193  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   194  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:26:2
+   195  .  .  .  .  .  .  .  .  .  Kind: STRING
+   196  .  .  .  .  .  .  .  .  .  Value: "\"syscall\""
+   197  .  .  .  .  .  .  .  .  }
+   198  .  .  .  .  .  .  .  .  EndPos: -
+   199  .  .  .  .  .  .  .  }
+   200  .  .  .  .  .  .  .  23: *ast.ImportSpec {
+   201  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   202  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:27:2
+   203  .  .  .  .  .  .  .  .  .  Kind: STRING
+   204  .  .  .  .  .  .  .  .  .  Value: "\"text/template\""
+   205  .  .  .  .  .  .  .  .  }
+   206  .  .  .  .  .  .  .  .  EndPos: -
+   207  .  .  .  .  .  .  .  }
+   208  .  .  .  .  .  .  .  24: *ast.ImportSpec {
+   209  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   210  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:28:2
+   211  .  .  .  .  .  .  .  .  .  Kind: STRING
+   212  .  .  .  .  .  .  .  .  .  Value: "\"time\""
+   213  .  .  .  .  .  .  .  .  }
+   214  .  .  .  .  .  .  .  .  EndPos: -
+   215  .  .  .  .  .  .  .  }
+   216  .  .  .  .  .  .  .  25: *ast.ImportSpec {
+   217  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   218  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:29:2
+   219  .  .  .  .  .  .  .  .  .  Kind: STRING
+   220  .  .  .  .  .  .  .  .  .  Value: "\"unicode\""
+   221  .  .  .  .  .  .  .  .  }
+   222  .  .  .  .  .  .  .  .  EndPos: -
+   223  .  .  .  .  .  .  .  }
+   224  .  .  .  .  .  .  .  26: *ast.ImportSpec {
+   225  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   226  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:30:2
+   227  .  .  .  .  .  .  .  .  .  Kind: STRING
+   228  .  .  .  .  .  .  .  .  .  Value: "\"unicode/utf8\""
+   229  .  .  .  .  .  .  .  .  }
+   230  .  .  .  .  .  .  .  .  EndPos: -
+   231  .  .  .  .  .  .  .  }
+   232  .  .  .  .  .  .  .  27: *ast.ImportSpec {
+   233  .  .  .  .  .  .  .  .  Name: *ast.Ident {
+   234  .  .  .  .  .  .  .  .  .  NamePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:32:2
+   235  .  .  .  .  .  .  .  .  .  Name: "gbuild"
+   236  .  .  .  .  .  .  .  .  }
+   237  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   238  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:32:9
+   239  .  .  .  .  .  .  .  .  .  Kind: STRING
+   240  .  .  .  .  .  .  .  .  .  Value: "\"github.com/gopherjs/gopherjs/build\""
+   241  .  .  .  .  .  .  .  .  }
+   242  .  .  .  .  .  .  .  .  EndPos: -
+   243  .  .  .  .  .  .  .  }
+   244  .  .  .  .  .  .  .  28: *ast.ImportSpec {
+   245  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   246  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:33:2
+   247  .  .  .  .  .  .  .  .  .  Kind: STRING
+   248  .  .  .  .  .  .  .  .  .  Value: "\"github.com/gopherjs/gopherjs/compiler\""
+   249  .  .  .  .  .  .  .  .  }
+   250  .  .  .  .  .  .  .  .  EndPos: -
+   251  .  .  .  .  .  .  .  }
+   252  .  .  .  .  .  .  .  29: *ast.ImportSpec {
+   253  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   254  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:34:2
+   255  .  .  .  .  .  .  .  .  .  Kind: STRING
+   256  .  .  .  .  .  .  .  .  .  Value: "\"github.com/gopherjs/gopherjs/internal/sysutil\""
+   257  .  .  .  .  .  .  .  .  }
+   258  .  .  .  .  .  .  .  .  EndPos: -
+   259  .  .  .  .  .  .  .  }
+   260  .  .  .  .  .  .  .  30: *ast.ImportSpec {
+   261  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   262  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:35:2
+   263  .  .  .  .  .  .  .  .  .  Kind: STRING
+   264  .  .  .  .  .  .  .  .  .  Value: "\"github.com/kisielk/gotool\""
+   265  .  .  .  .  .  .  .  .  }
+   266  .  .  .  .  .  .  .  .  EndPos: -
+   267  .  .  .  .  .  .  .  }
+   268  .  .  .  .  .  .  .  31: *ast.ImportSpec {
+   269  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   270  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:36:2
+   271  .  .  .  .  .  .  .  .  .  Kind: STRING
+   272  .  .  .  .  .  .  .  .  .  Value: "\"github.com/neelance/sourcemap\""
+   273  .  .  .  .  .  .  .  .  }
+   274  .  .  .  .  .  .  .  .  EndPos: -
+   275  .  .  .  .  .  .  .  }
+   276  .  .  .  .  .  .  .  32: *ast.ImportSpec {
+   277  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   278  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:37:2
+   279  .  .  .  .  .  .  .  .  .  Kind: STRING
+   280  .  .  .  .  .  .  .  .  .  Value: "\"github.com/spf13/cobra\""
+   281  .  .  .  .  .  .  .  .  }
+   282  .  .  .  .  .  .  .  .  EndPos: -
+   283  .  .  .  .  .  .  .  }
+   284  .  .  .  .  .  .  .  33: *ast.ImportSpec {
+   285  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   286  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:38:2
+   287  .  .  .  .  .  .  .  .  .  Kind: STRING
+   288  .  .  .  .  .  .  .  .  .  Value: "\"github.com/spf13/pflag\""
+   289  .  .  .  .  .  .  .  .  }
+   290  .  .  .  .  .  .  .  .  EndPos: -
+   291  .  .  .  .  .  .  .  }
+   292  .  .  .  .  .  .  .  34: *ast.ImportSpec {
+   293  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   294  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:39:2
+   295  .  .  .  .  .  .  .  .  .  Kind: STRING
+   296  .  .  .  .  .  .  .  .  .  Value: "\"golang.org/x/crypto/ssh/terminal\""
+   297  .  .  .  .  .  .  .  .  }
+   298  .  .  .  .  .  .  .  .  EndPos: -
+   299  .  .  .  .  .  .  .  }
+   300  .  .  .  .  .  .  .  35: *ast.ImportSpec {
+   301  .  .  .  .  .  .  .  .  Path: *ast.BasicLit {
+   302  .  .  .  .  .  .  .  .  .  ValuePos: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:40:2
+   303  .  .  .  .  .  .  .  .  .  Kind: STRING
+   304  .  .  .  .  .  .  .  .  .  Value: "\"golang.org/x/tools/go/buildutil\""
+   305  .  .  .  .  .  .  .  .  }
+   306  .  .  .  .  .  .  .  .  EndPos: -
+   307  .  .  .  .  .  .  .  }
+   308  .  .  .  .  .  .  }
+   309  .  .  .  .  .  .  Rparen: D:\gopath\src\github.com\gopherjs\gopherjs\tool.go:41:1
+   310  .  .  .  .  .  }
+   311  .  .  .  .  }
+   312  .  .  .  .  Scope: *ast.Scope {
+   313  .  .  .  .  .  Objects: map[string]*ast.Object (len = 0) {}
+   314  .  .  .  .  }
+   315  .  .  .  .  Imports: []*ast.ImportSpec (len = 36) {
+   316  .  .  .  .  .  0: *(obj @ 16)
+   317  .  .  .  .  .  1: *(obj @ 24)
+   318  .  .  .  .  .  2: *(obj @ 32)
+   319  .  .  .  .  .  3: *(obj @ 40)
+   320  .  .  .  .  .  4: *(obj @ 48)
+   321  .  .  .  .  .  5: *(obj @ 56)
+   322  .  .  .  .  .  6: *(obj @ 64)
+   323  .  .  .  .  .  7: *(obj @ 72)
+   324  .  .  .  .  .  8: *(obj @ 80)
+   325  .  .  .  .  .  9: *(obj @ 88)
+   326  .  .  .  .  .  10: *(obj @ 96)
+   327  .  .  .  .  .  11: *(obj @ 104)
+   328  .  .  .  .  .  12: *(obj @ 112)
+   329  .  .  .  .  .  13: *(obj @ 120)
+   330  .  .  .  .  .  14: *(obj @ 128)
+   331  .  .  .  .  .  15: *(obj @ 136)
+   332  .  .  .  .  .  16: *(obj @ 144)
+   333  .  .  .  .  .  17: *(obj @ 152)
+   334  .  .  .  .  .  18: *(obj @ 160)
+   335  .  .  .  .  .  19: *(obj @ 168)
+   336  .  .  .  .  .  20: *(obj @ 176)
+   337  .  .  .  .  .  21: *(obj @ 184)
+   338  .  .  .  .  .  22: *(obj @ 192)
+   339  .  .  .  .  .  23: *(obj @ 200)
+   340  .  .  .  .  .  24: *(obj @ 208)
+   341  .  .  .  .  .  25: *(obj @ 216)
+   342  .  .  .  .  .  26: *(obj @ 224)
+   343  .  .  .  .  .  27: *(obj @ 232)
+   344  .  .  .  .  .  28: *(obj @ 244)
+   345  .  .  .  .  .  29: *(obj @ 252)
+   346  .  .  .  .  .  30: *(obj @ 260)
+   347  .  .  .  .  .  31: *(obj @ 268)
+   348  .  .  .  .  .  32: *(obj @ 276)
+   349  .  .  .  .  .  33: *(obj @ 284)
+   350  .  .  .  .  .  34: *(obj @ 292)
+   351  .  .  .  .  .  35: *(obj @ 300)
+   352  .  .  .  .  }
+   353  .  .  .  }
+   354  .  .  }
+   355  .  }
+   356  }
