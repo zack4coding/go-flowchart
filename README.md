@@ -1,7 +1,7 @@
 # go-flowchart
 Generates flowchart from go source code.
 
-Just appach hierarchical imports of package.
+Just approach hierarchical imports of package.
 
 Run it like:
 ```
