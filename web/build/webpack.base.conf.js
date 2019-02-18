@@ -42,6 +42,16 @@ module.exports = {
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
       },
       {
+        test: /\.ts(x?)$/,
+        include: path.join(__dirname, '../src'),
+        exclude: /node_modules/,
+        use: [{
+            loader: 'babel-loader',
+        }, {
+            loader: 'ts-loader',
+        }]
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
         options: {
