@@ -21,6 +21,7 @@ func handleAnalyze(w http.ResponseWriter, r *http.Request) {
     data = hierarchical.Analyze(tree)
     
     fmt.Println("data:"+data.ToJsonString())
+    fmt.Println("data size:", len(data.Nodes))
     // jsonFilePath := analysis.WCacheFile(path, data.ToJson())
     w.Header().Set("Content-Type", "text/json")
     w.Write(data.ToJson())
